@@ -17,7 +17,7 @@ public class GenerateImageRequestModel
     public string size;
     
 
-    string API_KEY ="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";
+    string API_KEY ="xxxxxxxxxxxxxxxxxxxxxxxxxx";
     
     public GenerateImageRequestModel(string _prompt, int _n, string _size)
     {
