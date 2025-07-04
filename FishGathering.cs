@@ -13,7 +13,7 @@ public class FishGathering : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        if (other.CompareTag("FishFoodParticles")) // Assuming you've tagged the fish food particles
+        if (other.CompareTag("FishFoodParticles")) //  tag the fish food particles
         {
             Vector3 collisionPoint = other.transform.position;
 
